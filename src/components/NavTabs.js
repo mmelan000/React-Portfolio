@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Logo from './images/logo.png';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -14,7 +15,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           <img
             alt=''
-            src='/logo.png'
+            src={Logo}
             width='30'
             height='30'
             className='d-inline-block align-top'

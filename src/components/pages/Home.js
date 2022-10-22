@@ -1,4 +1,18 @@
 import React from 'react';
+import Avatar from '../images/avatar.png';
+import BootstrapLogo from '../images/bootstrap.png';
+import CSS3Logo from '../images/css3.png';
+import ExpressLogo from '../images/express.png';
+import GitHubLogo from '../images/github-logo.png';
+import HTLM5Logo from '../images/html5.png';
+import jQueryLogo from '../images/jQuery.png';
+import JSLogo from '../images/JS.png';
+import MERNLogo from '../images/mern.jpg';
+import MySQLLogo from '../images/MySQL.jpg';
+import NodeJSLogo from '../images/nodeJS.png';
+import NPMLogo from '../images/npm.png';
+import ReactLogo from '../images/React.png';
+import MongoDBLogo from '../images/mongodb.png';
 
 const styles = {
   orangeFont: {
@@ -13,9 +27,6 @@ const styles = {
   redFont: {
     color: '#E06A69',
   },
-  blueFont: {
-    color: '#61AFEF',
-  },
   yellowFont: {
     color: '#E5C07B',
   },
@@ -28,11 +39,7 @@ const Home = () => {
         <div className='col'>
           <div className='card cardHome bg-dark w-100'>
             <div className='row card-body'>
-              <img
-                className='avatar mt-lg-5'
-                src='./images/avatar.png'
-                alt='sans'
-              />
+              <img className='avatar mt-lg-5' src={Avatar} alt='sans' />
               <div className='col-sm-9'>
                 <h2 className='card-title'>
                   <span style={styles.purpleFont}>const </span>
@@ -78,79 +85,79 @@ const Home = () => {
                 <div className='row'>
                   <img
                     className='tech-avatar'
-                    src='./images/html5.png'
+                    src={HTLM5Logo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/css3.png'
+                    src={CSS3Logo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/JS.png'
+                    src={JSLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/jQuery.png'
+                    src={jQueryLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/github-logo.png'
+                    src={GitHubLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/bootstrap.png'
+                    src={BootstrapLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/npm.png'
+                    src={NPMLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/nodeJS.png'
+                    src={NodeJSLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/express.png'
+                    src={ExpressLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/MySQL.jpg'
+                    src={MySQLLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/mongodb.png'
+                    src={MongoDBLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/mern.jpg'
+                    src={MERNLogo}
                     height='auto'
                     width='70%'
                   />
                   <img
                     className='tech-avatar'
-                    src='./images/React.png'
+                    src={ReactLogo}
                     height='auto'
                     width='70%'
                   />
