@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import SocialNetwork from '../images/my-13th-project.jpg';
 import Ecommerce from '../images/my-11th-project.png';
 import EmployeeManager from '../images/my-10th-project.jpg';
 import EmployeeDashboard from '../images/my-8th-project.jpg';
@@ -31,6 +32,31 @@ const Back = () => {
             />
           }
         >
+          <Carousel.Item>
+            <Card bg='dark' text='white'>
+              <Card.Img variant='top' src={SocialNetwork} />
+              <Card.Body>
+                <Card.Title>Social Network API </Card.Title>
+                <hr />
+                <Card.Text>
+                  Back-end RESTful API to allow for CRUD operations to support a
+                  Social Network.
+                </Card.Text>
+                <div className='d-grid gap-2'>
+                  <Button variant='success' href='tbd' target='_blank'>
+                    Walkthrough Video
+                  </Button>
+                  <Button
+                    variant='success'
+                    href='https://github.com/mmelan000/Social-Network-API'
+                    target='_blank'
+                  >
+                    Repository
+                  </Button>
+                </div>
+              </Card.Body>
+            </Card>
+          </Carousel.Item>
           <Carousel.Item>
             <Card bg='dark' text='white'>
               <Card.Img variant='top' src={Ecommerce} />
