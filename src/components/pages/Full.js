@@ -3,11 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import FindMyThrone from '../images/my-1st-group-project.jpg';
-import WeatherDashboard from '../images/my-6th-project.jpg';
-import WorkDayScheduler from '../images/my-5th-project.jpg';
-import CodingQuiz from '../images/my-4th-project.jpg';
-import PasswordGen from '../images/my-3rd-project.jpg';
+import FindAFriend from '../images/my-2nd-group-project.jpg';
+import TechBlog from '../images/my-12th-project.jpg';
+import NoteTaker from '../images/my-9th-project.jpg';
 
 const Full = () => {
   return (
@@ -34,26 +32,25 @@ const Full = () => {
         >
           <Carousel.Item>
             <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={FindMyThrone} />
+              <Card.Img variant='top' src={FindAFriend} />
               <Card.Body>
-                <Card.Title>FindMyThrone</Card.Title>
+                <Card.Title>Find A Friend</Card.Title>
                 <hr />
                 <Card.Text>
-                  Front-end application to allow users to find the nearest
-                  public bathroom and provide ratings. Designed as a tool to
-                  assist those who work on the road all day.
+                  Full Stack application to allow users to connect with others
+                  users, and create or join events.
                 </Card.Text>
                 <div className='d-grid gap-2'>
                   <Button
                     variant='success'
-                    href='https://mmelan000.github.io/FindMyThrone/'
+                    href='https://fathomless-gorge-22203.herokuapp.com/'
                     target='_blank'
                   >
                     Deployed Application
                   </Button>
                   <Button
                     variant='success'
-                    href='https://github.com/mmelan000/FindMyThrone'
+                    href='https://github.com/mmelan000/Find-A-Friend'
                     target='_blank'
                   >
                     Repository
@@ -64,25 +61,25 @@ const Full = () => {
           </Carousel.Item>
           <Carousel.Item>
             <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={WeatherDashboard} />
+              <Card.Img variant='top' src={TechBlog} />
               <Card.Body>
-                <Card.Title>Weather Dashboard App</Card.Title>
+                <Card.Title>Tech Blog</Card.Title>
                 <hr />
                 <Card.Text>
-                  Front End application that uses third party APIs and local
-                  storage to provide up to date weather information.
+                  Full Stack application to provide a message board, complete
+                  with CRUD operations and authorization.
                 </Card.Text>
                 <div className='d-grid gap-2'>
                   <Button
                     variant='success'
-                    href='https://mmelan000.github.io/Weather-Dashboard-powered-by-API/'
+                    href='https://secure-hollows-02949.herokuapp.com/'
                     target='_blank'
                   >
                     Deployed Application
                   </Button>
                   <Button
                     variant='success'
-                    href='https://github.com/mmelan000/Weather-Dashboard-powered-by-API'
+                    href='https://github.com/mmelan000/SHINRA-Tech-Blog'
                     target='_blank'
                   >
                     Repository
@@ -93,84 +90,25 @@ const Full = () => {
           </Carousel.Item>
           <Carousel.Item>
             <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={WorkDayScheduler} />
+              <Card.Img variant='top' src={NoteTaker} />
               <Card.Body>
-                <Card.Title>Work Day Scheduler</Card.Title>
+                <Card.Title>Note Taker</Card.Title>
                 <hr />
                 <Card.Text>
-                  Front End application that uses local storage and CRUD
-                  operations to allow users to keep track of the day's events.
+                  Front-end application that utilizes local storage to allow
+                  users to perform CRUD operations on notes.
                 </Card.Text>
                 <div className='d-grid gap-2'>
                   <Button
                     variant='success'
-                    href='https://mmelan000.github.io/Work-Day-Planner/'
+                    href='https://notetaker-powered-by-expressjs.herokuapp.com/'
                     target='_blank'
                   >
                     Deployed Application
                   </Button>
                   <Button
                     variant='success'
-                    href='https://github.com/mmelan000/Work-Day-Planner'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Carousel.Item>
-          <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={CodingQuiz} />
-              <Card.Body>
-                <Card.Title>Coding Quiz App</Card.Title>
-                <hr />
-                <Card.Text>
-                  Front End application that allows users to test their
-                  knowledge about JavaScript using a third party API and local
-                  storage.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://mmelan000.github.io/Web-APIs-Code-Quiz/'
-                    target='_blank'
-                  >
-                    Deployed Application
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Web-APIs-Code-Quiz'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
-          </Carousel.Item>
-          <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={PasswordGen} />
-              <Card.Body>
-                <Card.Title>Password Generator</Card.Title>
-                <hr />
-                <Card.Text>
-                  Front End application to generate an acceptable random
-                  password based on user criteria.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://mmelan000.github.io/Javascript-Password-Generator/'
-                    target='_blank'
-                  >
-                    Deployed Application
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Javascript-Password-Generator'
+                    href='https://github.com/mmelan000/Note-Taker-powered-by-Express'
                     target='_blank'
                   >
                     Repository
