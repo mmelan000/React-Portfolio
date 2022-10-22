@@ -14,11 +14,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           href='#home'
         >
           <img
-            alt=''
             src={Logo}
             width='30'
             height='30'
             className='d-inline-block align-top'
+            alt='html element mockup of letter m'
           />{' '}
           Michael Melanson
         </Navbar.Brand>

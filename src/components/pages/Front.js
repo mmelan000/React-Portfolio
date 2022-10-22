@@ -13,7 +13,7 @@ const Front = () => {
   return (
     <Container>
       <br />
-      <Card border='danger'>
+      <Card border='danger' className='text-center'>
         <Carousel
           variant='dark'
           interval={9000}
