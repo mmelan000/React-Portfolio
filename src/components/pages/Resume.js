@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../pdf/Michael_Melanson_Resume.pdf';
+import pdf from '../pdf/Michael_Melanson_Resume2.pdf';
 
 export default function Resume() {
   return (
