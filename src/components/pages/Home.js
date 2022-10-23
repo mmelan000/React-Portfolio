@@ -27,6 +27,9 @@ const styles = {
   redFont: {
     color: '#E06A69',
   },
+  blueFont: {
+    color: '#61AFEF',
+  },
   yellowFont: {
     color: '#E5C07B',
   },
