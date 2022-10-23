@@ -1,7 +1,10 @@
 import React from 'react';
+import pdf from '../pdf/Michael_Melanson_Resume.pdf';
 
-const Resume = () => {
-  return <div className='text-white'> this is the resume page</div>;
-};
-
-export default Resume;
+export default function Resume() {
+  return (
+    <div className='container'>
+      <iframe title='resume' src={pdf} />
+    </div>
+  );
+}
