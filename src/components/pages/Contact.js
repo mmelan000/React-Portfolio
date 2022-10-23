@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Form, Container, Row } from 'react-bootstrap';
+import { Card, Form, Container, Row, Button } from 'react-bootstrap';
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -14,8 +14,8 @@ const Contact = () => {
   return (
     <Container>
       <br />
-      <Row>
-        <Card className='col-6' bg='dark' text='white'>
+      <Row className='justify-content-around'>
+        <Card className='col-sm-12 col-md-5' bg='dark' text='white'>
           <Card.Body>
             <Card.Title>Looking to Contact Me?</Card.Title>
             <hr />
@@ -27,7 +27,8 @@ const Contact = () => {
               </a>
             </Card.Text>
             <Card.Text>
-              LinkedIn:{' '}
+              LinkedIn:
+              <br />
               <a href='https://www.linkedin.com/in/michael-melanson-66130b237/'>
                 https://www.linkedin.com/in/michael-melanson/
               </a>
@@ -40,10 +41,13 @@ const Contact = () => {
             </Card.Text>
           </Card.Body>
         </Card>
-        <Card className='col-6' bg='dark' text='white'>
+
+        <Card className='col-sm-12 col-md-5' bg='dark' text='white'>
           <Card.Body>
+            <Card.Title>Drop me a message!</Card.Title>
+            <hr />
             <Form>
-              <label for='name'>Name</label>
+              <label htmlFor='name'>Name</label>
               <br />
               <input
                 type='text'
@@ -64,7 +68,7 @@ const Contact = () => {
                 className='contact_input col-12'
               />
               <br />
-              <label for='email'>Email</label>
+              <label htmlFor='email'>Email</label>
               <br />
               <input
                 type='text'
@@ -88,7 +92,7 @@ const Contact = () => {
                 className='contact_input col-12'
               />
               <br />
-              <label for='message'>Message</label>
+              <label htmlFor='message'>Message</label>
               <br />
               <textarea
                 id='message'
@@ -108,11 +112,7 @@ const Contact = () => {
                 className='contact_input col-12'
               ></textarea>
               <br />
-              <input
-                type='submit'
-                value='Submit'
-                className='contact_button button'
-              />
+              <Button variant='success'>Submit</Button>
               <p>{error}</p>
             </Form>
           </Card.Body>
