@@ -69,7 +69,7 @@ iframe {
     h1 {font-size: 110%;}
     iframe {
       width: 100%;
-      height: 28rem;
+      height: 500px;
     }
     #my-carousel-right, #my-carousel-left{
       padding:20px;
