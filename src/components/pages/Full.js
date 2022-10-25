@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from '../Project';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
@@ -31,91 +32,34 @@ const Full = () => {
           }
         >
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={FindAFriend} />
-              <Card.Body>
-                <Card.Title>Find A Friend</Card.Title>
-                <hr />
-                <Card.Text>
-                  Full Stack application to allow users to connect with others
-                  users, and create or join events.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://fathomless-gorge-22203.herokuapp.com/'
-                    target='_blank'
-                  >
-                    Deployed Application
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Find-A-Friend'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Find a Friend'
+              image={FindAFriend}
+              desc='Full Stack application to allow users to connect with others
+                  users, and create or join events.'
+              repo='https://github.com/mmelan000/Find-A-Friend'
+              deploy='https://fathomless-gorge-22203.herokuapp.com/'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={TechBlog} />
-              <Card.Body>
-                <Card.Title>Tech Blog</Card.Title>
-                <hr />
-                <Card.Text>
-                  Full Stack application to provide a message board, complete
-                  with CRUD operations and authorization.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://secure-hollows-02949.herokuapp.com/'
-                    target='_blank'
-                  >
-                    Deployed Application
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/SHINRA-Tech-Blog'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Tech Blog'
+              image={TechBlog}
+              desc='Full Stack application to provide a message board, complete
+            with CRUD operations and authorization.'
+              repo='https://github.com/mmelan000/SHINRA-Tech-Blog'
+              deploy='https://secure-hollows-02949.herokuapp.com/'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={NoteTaker} />
-              <Card.Body>
-                <Card.Title>Note Taker</Card.Title>
-                <hr />
-                <Card.Text>
-                  Front-end application that utilizes local storage to allow
-                  users to perform CRUD operations on notes.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://notetaker-powered-by-expressjs.herokuapp.com/'
-                    target='_blank'
-                  >
-                    Deployed Application
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Note-Taker-powered-by-Express'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Note Taker'
+              image={NoteTaker}
+              desc='Front and back end application that utilizes local storage to allow
+              users to perform CRUD operations on notes.'
+              repo='https://github.com/mmelan000/Note-Taker-powered-by-Express'
+              deploy='https://notetaker-powered-by-expressjs.herokuapp.com/'
+            />
           </Carousel.Item>
         </Carousel>
       </Card>

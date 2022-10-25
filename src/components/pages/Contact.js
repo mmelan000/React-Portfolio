@@ -46,7 +46,11 @@ const Contact = () => {
           <Card.Body>
             <Card.Title>Drop me a message!</Card.Title>
             <hr />
-            <Form>
+            <Form
+              onSubmit={(e) => {
+                e.preventDefault();
+              }}
+            >
               <label htmlFor='name'>Name</label>
               <br />
               <input
@@ -112,7 +116,9 @@ const Contact = () => {
                 className='contact_input col-12'
               ></textarea>
               <br />
-              <Button variant='success'>Submit</Button>
+              <Button type='submit' variant='success'>
+                Submit
+              </Button>
               <p>{error}</p>
             </Form>
           </Card.Body>
