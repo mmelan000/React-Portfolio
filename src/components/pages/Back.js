@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from '../Project';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
@@ -33,152 +34,55 @@ const Back = () => {
           }
         >
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={SocialNetwork} />
-              <Card.Body>
-                <Card.Title>Social Network API </Card.Title>
-                <hr />
-                <Card.Text>
-                  Back-end RESTful API to allow for CRUD operations to support a
-                  Social Network.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button variant='success' href='tbd' target='_blank'>
-                    Walkthrough Video
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Social-Network-API'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Social Network API'
+              image={SocialNetwork}
+              desc='Back-end RESTful API to allow for CRUD operations to support a
+              Social Network.'
+              repo='https://github.com/mmelan000/Social-Network-API'
+              video='tbd'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={Ecommerce} />
-              <Card.Body>
-                <Card.Title>E-Commerce API Backend </Card.Title>
-                <hr />
-                <Card.Text>
-                  Back End application to allow client to utilize CRUD
-                  operations for MySQL inventory database
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://drive.google.com/file/d/1sBtApEYqutYOUci_sTvA7tTQqx3U7XHC/view'
-                    target='_blank'
-                  >
-                    Walkthrough Video
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/E-Commerce-API-Backend'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='E-Commerce API Backend'
+              image={Ecommerce}
+              desc='Back End application to allow client to utilize CRUD
+              operations for MySQL inventory database.'
+              repo='https://github.com/mmelan000/E-Commerce-API-Backend'
+              video='https://drive.google.com/file/d/1sBtApEYqutYOUci_sTvA7tTQqx3U7XHC/view'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={EmployeeManager} />
-              <Card.Body>
-                <Card.Title>Employee Database Manager</Card.Title>
-                <hr />
-                <Card.Text>
-                  Node.js and MySQL application that allows user to manage CRUD
-                  operations on an Human Resources database.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://drive.google.com/file/d/1bmcOn1soIZEP6wXATo3wsAhYo2cORi4V/view'
-                    target='_blank'
-                  >
-                    Walkthrough Video
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Employee-Database-Manager'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Employee Database Manager'
+              image={EmployeeManager}
+              desc='Node.js and MySQL application that allows user to manage CRUD
+              operations on an Human Resources database.'
+              repo='https://github.com/mmelan000/Employee-Database-Manager'
+              video='https://drive.google.com/file/d/1bmcOn1soIZEP6wXATo3wsAhYo2cORi4V/view'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={EmployeeDashboard} />
-              <Card.Body>
-                <Card.Title>Employee Dashboard Generator</Card.Title>
-                <hr />
-                <Card.Text>
-                  Node.js application that allows employers to generate HTML/CSS
-                  dashboards for employees.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://drive.google.com/file/d/1QaviwklVCTNazefBhnmVNIgdwy2Qhaf4/view'
-                    target='_blank'
-                  >
-                    Walkthrough Video
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://mmelan000.github.io/Employee-Dashboard-Generator/'
-                    target='_blank'
-                  >
-                    Deployed Sample
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/Employee-Dashboard-Generator'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='Employee Dashboard Generator'
+              image={EmployeeDashboard}
+              desc='Node.js application that allows employers to generate HTML/CSS
+              dashboards for employees.'
+              repo='https://github.com/mmelan000/Employee-Dashboard-Generator'
+              video='https://drive.google.com/file/d/1QaviwklVCTNazefBhnmVNIgdwy2Qhaf4/view'
+              deploy='https://mmelan000.github.io/Employee-Dashboard-Generator/'
+            />
           </Carousel.Item>
           <Carousel.Item>
-            <Card bg='dark' text='white'>
-              <Card.Img variant='top' src={README} />
-              <Card.Body>
-                <Card.Title>README Generator</Card.Title>
-                <hr />
-                <Card.Text>
-                  Node.js application that allows user to enter information and
-                  receive back a properly formatted README.md file.
-                </Card.Text>
-                <div className='d-grid gap-2'>
-                  <Button
-                    variant='success'
-                    href='https://drive.google.com/file/d/16kG3nYP8nuznHHM4zX5IJNo8nJDFk0n6/view'
-                    target='_blank'
-                  >
-                    Walkthrough Video
-                  </Button>
-                  <Button
-                    variant='success'
-                    href='https://github.com/mmelan000/I-Hate-Doing-READMEs'
-                    target='_blank'
-                  >
-                    Repository
-                  </Button>
-                </div>
-              </Card.Body>
-            </Card>
+            <Project
+              title='README Generator'
+              image={README}
+              desc='Node.js application that allows user to enter information and
+              receive back a properly formatted README.md file.'
+              repo='https://github.com/mmelan000/I-Hate-Doing-READMEs'
+              video='https://drive.google.com/file/d/16kG3nYP8nuznHHM4zX5IJNo8nJDFk0n6/view'
+            />
           </Carousel.Item>
         </Carousel>
       </Card>
