@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.386d0c03.css",
-    "main.js": "/React-Portfolio/static/js/main.67b9b9de.js",
+    "main.css": "/React-Portfolio/static/css/main.e0961ee7.css",
+    "main.js": "/React-Portfolio/static/js/main.211d4f86.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/my-1st-group-project.jpg": "/React-Portfolio/static/media/my-1st-group-project.dfe6781797650df86cc8.jpg",
     "static/media/my-13th-project.jpg": "/React-Portfolio/static/media/my-13th-project.80b900616dca52271d4e.jpg",
@@ -22,15 +22,16 @@
     "static/media/Michael_Melanson_Resume2.pdf": "/React-Portfolio/static/media/Michael_Melanson_Resume2.5f9f0e18ed28240550a6.pdf",
     "static/media/mern.jpg": "/React-Portfolio/static/media/mern.4c5182e85f32a14cd6e7.jpg",
     "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
+    "static/media/graphQLlogo.png": "/React-Portfolio/static/media/graphQLlogo.2cc7369daa7d9219cb8e.png",
     "static/media/nodeJS.png": "/React-Portfolio/static/media/nodeJS.b235615dd3114bee871d.png",
     "static/media/React.png": "/React-Portfolio/static/media/React.5929148ed809850d82fb.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.386d0c03.css.map": "/React-Portfolio/static/css/main.386d0c03.css.map",
-    "main.67b9b9de.js.map": "/React-Portfolio/static/js/main.67b9b9de.js.map",
+    "main.e0961ee7.css.map": "/React-Portfolio/static/css/main.e0961ee7.css.map",
+    "main.211d4f86.js.map": "/React-Portfolio/static/js/main.211d4f86.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.386d0c03.css",
-    "static/js/main.67b9b9de.js"
+    "static/css/main.e0961ee7.css",
+    "static/js/main.211d4f86.js"
   ]
 }
