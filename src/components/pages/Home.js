@@ -13,6 +13,7 @@ import NodeJSLogo from '../images/nodeJS.png';
 import NPMLogo from '../images/npm.png';
 import ReactLogo from '../images/React.png';
 import MongoDBLogo from '../images/mongodb.png';
+import GraphQL from '../images/graphQLlogo.png';
 
 const styles = {
   orangeFont: {
@@ -161,6 +162,12 @@ const Home = () => {
                   <img
                     className='tech-avatar'
                     src={ReactLogo}
+                    height='auto'
+                    width='70%'
+                  />
+                  <img
+                    className='tech-avatar'
+                    src={GraphQL}
                     height='auto'
                     width='70%'
                   />

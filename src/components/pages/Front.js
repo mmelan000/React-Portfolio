@@ -3,7 +3,6 @@ import Project from '../Project';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import FindMyThrone from '../images/my-1st-group-project.jpg';
 import WeatherDashboard from '../images/my-6th-project.jpg';
 import WorkDayScheduler from '../images/my-5th-project.jpg';
@@ -42,6 +41,7 @@ const Front = () => {
               assist those who work on the road all day.'
               repo='https://github.com/mmelan000/FindMyThrone'
               deploy='https://mmelan000.github.io/FindMyThrone/'
+              techs='CSS3, Bulma, HTML5, JavaScript, Google Maps API'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -52,6 +52,7 @@ const Front = () => {
               storage to provide up to date weather information.'
               repo='https://github.com/mmelan000/Weather-Dashboard-powered-by-API'
               deploy='https://mmelan000.github.io/Weather-Dashboard-powered-by-API/'
+              techs='CSS3, Bootstrap, HTML5, JavaScript, One Call Weather API'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -62,6 +63,7 @@ const Front = () => {
               operations to allow users to keep track of the day's events."
               repo='https://github.com/mmelan000/Work-Day-Planner'
               deploy='https://mmelan000.github.io/Work-Day-Planner/'
+              techs='CSS3, Bootstrap, HTML5, Moment.js, JavaScript'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -73,6 +75,7 @@ const Front = () => {
               storage.'
               repo='https://github.com/mmelan000/Web-APIs-Code-Quiz'
               deploy='https://mmelan000.github.io/Web-APIs-Code-Quiz/'
+              techs='CSS3, HTML5, JavaScript'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -83,6 +86,7 @@ const Front = () => {
               password based on user criteria.'
               repo='https://github.com/mmelan000/Javascript-Password-Generator'
               deploy='https://mmelan000.github.io/Javascript-Password-Generator/'
+              techs='CSS3, HTML5, JavaScript'
             />
           </Carousel.Item>
         </Carousel>

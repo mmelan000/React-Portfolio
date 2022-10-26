@@ -3,7 +3,6 @@ import Project from '../Project';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import FindAFriend from '../images/my-2nd-group-project.jpg';
 import TechBlog from '../images/my-12th-project.jpg';
 import NoteTaker from '../images/my-9th-project.jpg';
@@ -39,6 +38,7 @@ const Full = () => {
                   users, and create or join events.'
               repo='https://github.com/mmelan000/Find-A-Friend'
               deploy='https://fathomless-gorge-22203.herokuapp.com/'
+              techs='bcrypt, Bootstrap, connect-session-sequalize, CSS3, dotenv, Express.js, express-handlebars, express-session, Handlebars.js, HTML5, JavaScript, md5, MySQL, MySQL2, Node.js, Sequalize.js'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -49,6 +49,7 @@ const Full = () => {
             with CRUD operations and authorization.'
               repo='https://github.com/mmelan000/SHINRA-Tech-Blog'
               deploy='https://secure-hollows-02949.herokuapp.com/'
+              techs='bcrypt, Bootstrap, connect-session-sequalize, dotenv, Express.js, express-handlebars, express-session, HTML5, JavaScript, MySQL, MySQL2, Node.js, Sequalize.js'
             />
           </Carousel.Item>
           <Carousel.Item>
@@ -59,6 +60,7 @@ const Full = () => {
               users to perform CRUD operations on notes.'
               repo='https://github.com/mmelan000/Note-Taker-powered-by-Express'
               deploy='https://notetaker-powered-by-expressjs.herokuapp.com/'
+              techs='Bootstrap, CSS3, Express.js, HTML5, JavaScript, Node.js, uuid'
             />
           </Carousel.Item>
         </Carousel>
