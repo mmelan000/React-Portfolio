@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.e0961ee7.css",
-    "main.js": "/React-Portfolio/static/js/main.211d4f86.js",
+    "main.js": "/React-Portfolio/static/js/main.fa39c044.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/my-1st-group-project.jpg": "/React-Portfolio/static/media/my-1st-group-project.dfe6781797650df86cc8.jpg",
     "static/media/my-13th-project.jpg": "/React-Portfolio/static/media/my-13th-project.80b900616dca52271d4e.jpg",
@@ -19,7 +19,7 @@
     "static/media/MySQL.jpg": "/React-Portfolio/static/media/MySQL.e1595fa4556259b78529.jpg",
     "static/media/jQuery.png": "/React-Portfolio/static/media/jQuery.66108f53b218c72ed50a.png",
     "static/media/my-11th-project.png": "/React-Portfolio/static/media/my-11th-project.b86eb4779258d00c43c7.png",
-    "static/media/Michael_Melanson_Resume2.pdf": "/React-Portfolio/static/media/Michael_Melanson_Resume2.5f9f0e18ed28240550a6.pdf",
+    "static/media/michael_melanson_resume.pdf": "/React-Portfolio/static/media/michael_melanson_resume.ab1c21d17ebdc17ac675.pdf",
     "static/media/mern.jpg": "/React-Portfolio/static/media/mern.4c5182e85f32a14cd6e7.jpg",
     "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
     "static/media/graphQLlogo.png": "/React-Portfolio/static/media/graphQLlogo.2cc7369daa7d9219cb8e.png",
@@ -27,11 +27,11 @@
     "static/media/React.png": "/React-Portfolio/static/media/React.5929148ed809850d82fb.png",
     "index.html": "/React-Portfolio/index.html",
     "main.e0961ee7.css.map": "/React-Portfolio/static/css/main.e0961ee7.css.map",
-    "main.211d4f86.js.map": "/React-Portfolio/static/js/main.211d4f86.js.map",
+    "main.fa39c044.js.map": "/React-Portfolio/static/js/main.fa39c044.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0961ee7.css",
-    "static/js/main.211d4f86.js"
+    "static/js/main.fa39c044.js"
   ]
 }
