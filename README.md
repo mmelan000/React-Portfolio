@@ -54,7 +54,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployment
 
-[Deployed Website](https://mmelan000.github.io/mmelan000-Frontend-Portfolio/)
+[Deployed Website](https://mmelan000.github.io/React-Portfolio/)
 
 ![App Screenshot](./assets/images/ss1.jpg)
 ![App Screenshot](./assets/images/ss2.jpg)
