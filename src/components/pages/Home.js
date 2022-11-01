@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../images/avatar.png';
+import Avatar from '../images/updated_avatar.jpg';
 import BootstrapLogo from '../images/bootstrap.png';
 import CSS3Logo from '../images/css3.png';
 import ExpressLogo from '../images/express.png';
