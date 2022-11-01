@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
-function Project({ image, title, desc, repo, video, deploy, techs }) {
+function Project({ image, title, desc, jargon, repo, video, deploy, techs }) {
   const repoButton = (repo) => {
     if (repo) {
       return (
@@ -44,6 +44,9 @@ function Project({ image, title, desc, repo, video, deploy, techs }) {
         <Card.Title>{title}</Card.Title>
         <hr />
         <Card.Text>{desc}</Card.Text>
+        <Card.Text>
+          <b>Technical Overview:</b> {jargon}
+        </Card.Text>
         <Card.Text>
           <b>Technologies Used:</b> {techs}
         </Card.Text>

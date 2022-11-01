@@ -34,7 +34,8 @@ const Full = () => {
             <Project
               title='Find a Friend'
               image={FindAFriend}
-              desc='Full Stack application to allow users to connect with others
+              desc='A website designed to help facilite social activities among friends and strangers.'
+              jargon='Full Stack application to allow users to connect with others
                   users, and create or join events.'
               repo='https://github.com/mmelan000/Find-A-Friend'
               deploy='https://fathomless-gorge-22203.herokuapp.com/'
@@ -45,7 +46,8 @@ const Full = () => {
             <Project
               title='Tech Blog'
               image={TechBlog}
-              desc='Full Stack application to provide a message board, complete
+              desc='A forum for users to make posts as well as view and comment on others posts.'
+              jargon='Full Stack application to provide a message board, complete
             with CRUD operations and authorization.'
               repo='https://github.com/mmelan000/SHINRA-Tech-Blog'
               deploy='https://secure-hollows-02949.herokuapp.com/'
@@ -56,7 +58,8 @@ const Full = () => {
             <Project
               title='Note Taker'
               image={NoteTaker}
-              desc='Front and back end application that utilizes local storage to allow
+              desc='An application that allows a user to store notes they need to keep.'
+              jargon='Front and back end application that utilizes local storage to allow
               users to perform CRUD operations on notes.'
               repo='https://github.com/mmelan000/Note-Taker-powered-by-Express'
               deploy='https://notetaker-powered-by-expressjs.herokuapp.com/'

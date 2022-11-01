@@ -36,9 +36,9 @@ const Front = () => {
             <Project
               title='FindMyThrone'
               image={FindMyThrone}
-              desc='Front-end application to allow users to find the nearest
-              public bathroom and provide ratings. Designed as a tool to
-              assist those who work on the road all day.'
+              desc='A tool designed for those who work on-the-move. As someone who was a cable technician, this solves the problem of finding a nearby nice public restroom, rather then inconvience a customer.'
+              jargon='Front-end application to allow users to find the nearest
+              public bathroom and provide ratings.'
               repo='https://github.com/mmelan000/FindMyThrone'
               deploy='https://mmelan000.github.io/FindMyThrone/'
               techs='CSS3, Bulma, HTML5, JavaScript, Google Maps API'
@@ -48,7 +48,8 @@ const Front = () => {
             <Project
               title='Weather Dashboard App'
               image={WeatherDashboard}
-              desc='Front End application that uses third party APIs and local
+              desc='A tool to help users stay up to date with the weather in regions they care about whether it be local, somewhere they plan to visit, or any other reason.'
+              jargon='Front End application that uses third party APIs and local
               storage to provide up to date weather information.'
               repo='https://github.com/mmelan000/Weather-Dashboard-powered-by-API'
               deploy='https://mmelan000.github.io/Weather-Dashboard-powered-by-API/'
@@ -59,7 +60,8 @@ const Front = () => {
             <Project
               title='Work Day Scheduler'
               image={WorkDayScheduler}
-              desc="Front End application that uses local storage and CRUD
+              desc='A tool to help users plan out their day and optimize their time.'
+              jargon="Front End application that uses local storage and CRUD
               operations to allow users to keep track of the day's events."
               repo='https://github.com/mmelan000/Work-Day-Planner'
               deploy='https://mmelan000.github.io/Work-Day-Planner/'
@@ -70,7 +72,8 @@ const Front = () => {
             <Project
               title='Coding Quiz App'
               image={CodingQuiz}
-              desc='Front End application that allows users to test their
+              desc="A quiz game that tests users who are new to JavaScript knowledge, that doesn' take itself to seriously."
+              jargon='Front End application that allows users to test their
               knowledge about JavaScript using a third party API and local
               storage.'
               repo='https://github.com/mmelan000/Web-APIs-Code-Quiz'
@@ -82,7 +85,8 @@ const Front = () => {
             <Project
               title='Password Generator'
               image={PasswordGen}
-              desc='Front End application to generate an acceptable random
+              desc='A simple app for users who want a randomly generated, secure password for work or personal use.'
+              jargon='Front End application to generate an acceptable random
               password based on user criteria.'
               repo='https://github.com/mmelan000/Javascript-Password-Generator'
               deploy='https://mmelan000.github.io/Javascript-Password-Generator/'

@@ -1,6 +1,9 @@
 *{
     font-family: 'Azeret Mono', monospace;
 }
+b {
+  font-size: 115%;
+}
 body {
     background-color: #282C34;
 }
@@ -36,6 +39,9 @@ iframe {
   .card-body {
     padding:40px
   }
+  .card-title {
+    font-size: 1.4rem;
+ }
 
 .carousel-control-next, .carousel-control-prev{
   opacity: 1;

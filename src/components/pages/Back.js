@@ -36,8 +36,8 @@ const Back = () => {
             <Project
               title='Social Network API'
               image={SocialNetwork}
-              desc='Back-end RESTful API to allow for CRUD operations to support a
-              Social Network.'
+              desc="An API for a potential Social Media app that allows 'thoughts' and 'reaction's to automatically be assigned to 'users' and 'thoughts'."
+              jargon='Back-end RESTful API to allow for CRUD operations utilizing a MongoDB database.'
               repo='https://github.com/mmelan000/Social-Network-API'
               video='tbd'
               techs='Express.js, JavaScript, MongoDB, Mongoose, Node.js'
@@ -47,8 +47,8 @@ const Back = () => {
             <Project
               title='E-Commerce API Backend'
               image={Ecommerce}
-              desc='Back End application to allow client to utilize CRUD
-              operations for MySQL inventory database.'
+              desc='An API so a business can keep track of stock and prices, as well as sort invetory by tags.'
+              jargon='Back-end RESTful API to allow for CRUD operations utilizing a MySQL database.'
               repo='https://github.com/mmelan000/E-Commerce-API-Backend'
               video='https://drive.google.com/file/d/1sBtApEYqutYOUci_sTvA7tTQqx3U7XHC/view'
               techs='dotenv, Express.js, JavaScript, Node.js, MySQL, MySQL2, Sequalize.js'
@@ -58,8 +58,9 @@ const Back = () => {
             <Project
               title='Employee Database Manager'
               image={EmployeeManager}
-              desc='Node.js and MySQL application that allows user to manage CRUD
-              operations on an Human Resources database.'
+              desc='A program that allows for a business to modify, display, and filter human resources.'
+              jargon='Node.js and MySQL application that allows user to manage CRUD
+              operations on their database.'
               repo='https://github.com/mmelan000/Employee-Database-Manager'
               video='https://drive.google.com/file/d/1bmcOn1soIZEP6wXATo3wsAhYo2cORi4V/view'
               techs='console.table, dotenv, Inquirer.js, JavaScript, MySQL, MySQL2, Node.js, Sequalize.js'
@@ -69,7 +70,8 @@ const Back = () => {
             <Project
               title='Employee Dashboard Generator'
               image={EmployeeDashboard}
-              desc='Node.js application that allows employers to generate HTML/CSS
+              desc='A tool to quickly get a user friendly dashboard of of their team and relevant information at a glance.'
+              jargon='Node.js application that allows employers to generate HTML/CSS
               dashboards for employees.'
               repo='https://github.com/mmelan000/Employee-Dashboard-Generator'
               video='https://drive.google.com/file/d/1QaviwklVCTNazefBhnmVNIgdwy2Qhaf4/view'
@@ -81,7 +83,8 @@ const Back = () => {
             <Project
               title='README Generator'
               image={README}
-              desc='Node.js application that allows user to enter information and
+              desc='A tool for those who want to get a quick professional looking README up and running quick.'
+              jargon='Node.js application that allows user to enter information and
               receive back a properly formatted README.md file.'
               repo='https://github.com/mmelan000/I-Hate-Doing-READMEs'
               video='https://drive.google.com/file/d/16kG3nYP8nuznHHM4zX5IJNo8nJDFk0n6/view'
