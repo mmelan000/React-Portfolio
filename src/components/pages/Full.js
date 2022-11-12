@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import FindAFriend from '../images/my-2nd-group-project.jpg';
 import TechBlog from '../images/my-12th-project.jpg';
 import NoteTaker from '../images/my-9th-project.jpg';
+import ArrayTheGame from '../images/array-the-game.png';
 
 const Full = () => {
   return (
@@ -30,6 +31,17 @@ const Full = () => {
             />
           }
         >
+          <Carousel.Item>
+            <Project
+              title='Array the Game'
+              image={ArrayTheGame}
+              desc='A passion project with friends I made during bootcamp the pushed the limits of what we thought we were capable of. A site that features a game, lobbies, in-game chat, and forums for a community.'
+              jargon='A MERN stack application that allows users to play a game with their friends.'
+              repo='https://github.com/mmelan000/Array-the-Game'
+              deploy='https://array-the-game-production.up.railway.app/'
+              techs='Apollo, bcrypt, Bootstrap, CSS3, dotenv, Express.js, GraphQL, HTML5, JavaScript, JWT, LottieFiles, MongoDB, Node.js, react-boostrap, socket.io, uuid'
+            />
+          </Carousel.Item>
           <Carousel.Item>
             <Project
               title='Find a Friend'
