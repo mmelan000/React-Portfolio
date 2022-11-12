@@ -35,7 +35,7 @@ const Full = () => {
             <Project
               title='Array the Game'
               image={ArrayTheGame}
-              desc='A passion project with friends I made during bootcamp the pushed the limits of what we thought we were capable of. A site that features a game, lobbies, in-game chat, and forums for a community.'
+              desc='A passion project with friends I made during bootcamp the pushed the limits of what we thought we were capable of. A site that features a game, lobbies, in-game chat, and forums for a'
               jargon='A MERN stack application that allows users to play a game with their friends.'
               repo='https://github.com/mmelan000/Array-the-Game'
               deploy='https://array-the-game-production.up.railway.app/'
@@ -46,7 +46,7 @@ const Full = () => {
             <Project
               title='Find a Friend'
               image={FindAFriend}
-              desc='A website designed to help facilite social activities among friends and strangers.'
+              desc='A website designed to help facilitate social activities among friends and strangers.'
               jargon='Full Stack application to allow users to connect with others
                   users, and create or join events.'
               repo='https://github.com/mmelan000/Find-A-Friend'
