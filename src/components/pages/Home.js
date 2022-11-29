@@ -14,6 +14,7 @@ import NPMLogo from '../images/npm.png';
 import ReactLogo from '../images/React.png';
 import MongoDBLogo from '../images/mongodb.png';
 import GraphQL from '../images/graphQLlogo.png';
+import Socketio from '../images/socketio.png';
 
 const styles = {
   orangeFont: {
@@ -92,84 +93,105 @@ const Home = () => {
                     src={HTLM5Logo}
                     height='auto'
                     width='70%'
+                    alt='html5 logo'
                   />
                   <img
                     className='tech-avatar'
                     src={CSS3Logo}
                     height='auto'
                     width='70%'
+                    alt='css3 logo'
                   />
                   <img
                     className='tech-avatar'
                     src={JSLogo}
                     height='auto'
                     width='70%'
+                    alt='javascript logo'
                   />
                   <img
                     className='tech-avatar'
                     src={jQueryLogo}
                     height='auto'
                     width='70%'
+                    alt='jquery logo'
                   />
                   <img
                     className='tech-avatar'
                     src={GitHubLogo}
                     height='auto'
                     width='70%'
+                    alt='github logo'
                   />
                   <img
                     className='tech-avatar'
                     src={BootstrapLogo}
                     height='auto'
                     width='70%'
+                    alt='bootstrap logo'
                   />
                   <img
                     className='tech-avatar'
                     src={NPMLogo}
                     height='auto'
                     width='70%'
+                    alt='npm logo'
                   />
                   <img
                     className='tech-avatar'
                     src={NodeJSLogo}
                     height='auto'
                     width='70%'
+                    alt='node.js logo'
                   />
                   <img
                     className='tech-avatar'
                     src={ExpressLogo}
                     height='auto'
                     width='70%'
+                    alt='express.js logo'
                   />
                   <img
                     className='tech-avatar'
                     src={MySQLLogo}
                     height='auto'
                     width='70%'
+                    alt='mysql logo'
                   />
                   <img
                     className='tech-avatar'
                     src={MongoDBLogo}
                     height='auto'
                     width='70%'
+                    alt='mongodb logo'
                   />
                   <img
                     className='tech-avatar'
                     src={MERNLogo}
                     height='auto'
                     width='70%'
+                    alt='mern logo'
                   />
                   <img
                     className='tech-avatar'
                     src={ReactLogo}
                     height='auto'
                     width='70%'
+                    alt='react logo'
                   />
                   <img
                     className='tech-avatar'
                     src={GraphQL}
                     height='auto'
                     width='70%'
+                    alt='graphql logo'
+                  />
+                  <img
+                    className='tech-avatar'
+                    src={Socketio}
+                    height='auto'
+                    width='70%'
+                    alt='socket.io logo'
                   />
                 </div>
               </div>
