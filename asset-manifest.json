@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.2738e534.css",
-    "main.js": "/React-Portfolio/static/js/main.d9e51c29.js",
+    "main.js": "/React-Portfolio/static/js/main.0378c19e.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/updated_avatar.jpg": "/React-Portfolio/static/media/updated_avatar.dccf7d6e88e2837f2793.jpg",
     "static/media/my-1st-group-project.jpg": "/React-Portfolio/static/media/my-1st-group-project.dfe6781797650df86cc8.jpg",
@@ -20,7 +20,7 @@
     "static/media/MySQL.jpg": "/React-Portfolio/static/media/MySQL.e1595fa4556259b78529.jpg",
     "static/media/jQuery.png": "/React-Portfolio/static/media/jQuery.66108f53b218c72ed50a.png",
     "static/media/my-11th-project.png": "/React-Portfolio/static/media/my-11th-project.b86eb4779258d00c43c7.png",
-    "static/media/Michael_Melanson_Resume.pdf": "/React-Portfolio/static/media/Michael_Melanson_Resume.e15a01aba124cee394a5.pdf",
+    "static/media/michael_melanson_resume.pdf": "/React-Portfolio/static/media/michael_melanson_resume.15d0002cf26529be6840.pdf",
     "static/media/mern.jpg": "/React-Portfolio/static/media/mern.4c5182e85f32a14cd6e7.jpg",
     "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.b8c08730d530013deb5b.png",
     "static/media/socketio.png": "/React-Portfolio/static/media/socketio.6895f59710e533023607.png",
@@ -29,11 +29,11 @@
     "static/media/React.png": "/React-Portfolio/static/media/React.5929148ed809850d82fb.png",
     "index.html": "/React-Portfolio/index.html",
     "main.2738e534.css.map": "/React-Portfolio/static/css/main.2738e534.css.map",
-    "main.d9e51c29.js.map": "/React-Portfolio/static/js/main.d9e51c29.js.map",
+    "main.0378c19e.js.map": "/React-Portfolio/static/js/main.0378c19e.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2738e534.css",
-    "static/js/main.d9e51c29.js"
+    "static/js/main.0378c19e.js"
   ]
 }
