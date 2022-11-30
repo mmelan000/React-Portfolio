@@ -59,16 +59,15 @@ const Home = () => {
                   player and problem solver, reinforced by 15 years of taking on
                   tasks as assigned, managing time, working with internal and
                   external teammates, and delivering on both company and
-                  customer expectations. Currently, I am obtaining a Certificate
-                  in Full Stack Web Development from University of Pennsylvania.
-                  developing skills in HTML, CSS, JavaScript, and responsive web
-                  design. Each project I have taken on has pushed me to learn
-                  something new or see an alternate approach. My most recent
-                  project was with a team to develop a full-stack application
-                  that would allow users to connect with each other to find
-                  activities, whether online or in person. I can’t wait to use
-                  my skills and experience to develop helpful experiences on the
-                  Internet.'
+                  customer expectations. I have obtained a Certificate in Full
+                  Stack Web Development from University of Pennsylvania,
+                  focusing on HTML, CSS, JavaScript, and responsive web design.
+                  Each project I have taken on has pushed me to learn something
+                  new or see an alternate approach. My most recent project was
+                  with a team to develop a full-stack application that would
+                  allow users to connect with each other to find activities,
+                  whether online or in person. I can’t wait to use my skills and
+                  experience to develop helpful experiences on the Internet.'
                 </p>
               </div>
             </div>
